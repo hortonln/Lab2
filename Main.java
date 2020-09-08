@@ -1,6 +1,9 @@
 class Main {
   public static void main(String[] args) {
     System.out.println("M&M Color Counts");
+
+//This code is calculating the percentage of M&M colors in bag. We also included if stmts to practice operators and stuff.
+
     int total = 55*10;
     double blue = total*.24;
     double brown = total*.13;
@@ -17,7 +20,7 @@ class Main {
     System.out.println("yellow: " + yellow);
 
     double sum = blue+brown+green+red+orange+yellow;
-
+    
     System.out.println("sum: " + sum);
 
     if(blue > brown && green > orange){
@@ -31,7 +34,7 @@ class Main {
     if(sum==total){
       System.out.println("Numbers match.");
     }
-
-
   }
+
+  
 }
